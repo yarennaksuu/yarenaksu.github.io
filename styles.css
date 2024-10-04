@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sixtyfour+Convergence&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Lobster", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url('img/arkaplan.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: rgb(0, 0, 0);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+main {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+  
+}
+
+
+.contentt{
+    color: white;
+}
+
+section{
+    padding: 50px;
+    padding-bottom: 350px;
+}
+
+.video{
+    text-align: center; 
+}
+
+video{
+    
+    padding-bottom: 100px;
+    
+    
+
+}
+
+
+
+footer {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 0;
+}
+
+
